@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    console: '%date{yyyy-MM-dd HH:mm:ss.SSS} | %highlight(%5level) [%green(%16.16thread)] %clr(%-50.50logger{49}){cyan} %4line -| %highlight(%msg%n)'
+  level:
+    root: info
+    io.lettuce.core: debug
+    org.springframework.data.redis: debug
+
+#myredis:
+#  mysentinel:
+#    master: @myredis.sentinel.master@
+#    myip: @myredis.sentinel.ip@
+#    myport: @myredis.sentinel.one.port@,@myredis.sentinel.two.port@,@myredis.sentinel.three.port@

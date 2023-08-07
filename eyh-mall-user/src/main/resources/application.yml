@@ -1,0 +1,81 @@
+server:
+  port: 8081 # 服务端口
+
+eyh-mall-user:
+  ribbon:
+    ConnectTimeout: 10000
+    ReadTimeout: 10000
+    NFLoadBancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡策略
+
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
+  eager-load:
+    enabled: true # 开启ribbon饥饿加载
+    clients: eyh-mall-user
+
+eyh:
+  mall:
+    user: eyh.mall.user.dev
+
+feign:
+  httpclient:
+    enabled: true # 开启feign对httpclient的支持
+    max-connections-per-route: 50 # 每个路径的最大连接数
+    max-connections: 200 # 最大连接数（连接池）
+    connection-timeout: 10000
+    connection-timer-repeat: 1000
+
+logging:
+  pattern:
+    console: '%date{yyyy-MM-dd HH:mm:ss.SSS} | %highlight(%5level) [%green(%16.16thread)] %clr(%-50.50logger{49}){cyan} %4line -| %highlight(%msg%n)'
+  level:
+    root: info
+    io.lettuce.core: debug
+    org.springframework.data.redis: debug
+
+spring:
+  # RabbitMQ配置信息
+  rabbitmq:
+    addresses: @rabbitmq1.url@,@rabbitmq2.url@,@rabbitmq3.url@
+    username: @rabbitmq.account@ #用户名
+    password: @rabbitmq.password@ #密码
+    virtual-host: / #虚拟主机
+
+  # 配置 MySQL 的主从复制、读写分离
+  shardingsphere:
+    datasource:
+      names: master,slave
+      # 主数据源
+      master:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: @eyh.user.mysql.master.url@
+        username: @mysql.master.username@
+        password: @mysql.master.password@
+      # 从数据源
+      slave:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: @eyh.user.mysql.slave.url@
+        username: @mysql.slave.username@
+        password: @mysql.slave.password@
+    props:
+      sql:
+        show: true
+    masterslave:
+      name: dataSource # 最终的数据源名称
+      load-balance-algorithm-type: round_robin # 读写分离设置[负载均衡策略]
+      master-data-source-name: master # 主数据源名称
+      slave-data-source-names: slave # 从数据源名称
+  main:
+    allow-bean-definition-overriding: true # 允许bean覆盖
+
+# 配置数据库表前缀 eyh_,表主键生成方式:跟随MySQL数据库 auto,为方便调试开启mybatis-plus日志
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: eyh_
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

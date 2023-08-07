@@ -1,0 +1,32 @@
+server:
+  port: 8084
+
+logging:
+  pattern:
+    console: '%date{yyyy-MM-dd HH:mm:ss.SSS} | %highlight(%5level) [%green(%16.16thread)] %clr(%-50.50logger{49}){cyan} %4line -| %highlight(%msg%n)'
+
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
+  eager-load:
+    enabled: true # 开启ribbon饥饿加载
+    clients: eyh-mall-aliyun
+
+eyh-mall-aliyun:
+  ribbon:
+    ConnectTimeout: 10000
+    ReadTimeout: 10000
+    NFLoadBancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡策略
+
+eyh:
+  mall:
+    aliyun: eyh.mall.aliyun
+
+spring:
+  # RabbitMQ配置信息
+  rabbitmq:
+    addresses: @rabbitmq1.url@,@rabbitmq2.url@,@rabbitmq3.url@
+    username: @rabbitmq.account@ #用户名
+    password: @rabbitmq.password@ #密码
+    virtual-host: / #虚拟主机
+

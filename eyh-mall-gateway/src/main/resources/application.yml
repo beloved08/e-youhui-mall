@@ -1,0 +1,88 @@
+server:
+  port: 10010
+spring:
+  cloud:
+    gateway: # 路由网关配置
+      routes:
+        - id: eyh-mall-jurisdiction # 路由id，自定义 必须唯一
+          uri: lb://eyh-mall-jurisdiction # 路由的目标地址，lb就是负载均衡，后面跟服务名称
+#          uri: http://localhost:8083
+          predicates: # 路由断言，判断请求是否符号路由规则的条件
+            - Path=/jurisdiction/** # 路径匹配
+        - id: eyh-mall-user
+          uri: lb://eyh-mall-user
+#          uri: http://localhost:8081
+          predicates:
+            - Path=/user/**
+        - id: eyh-mall-aliyun
+          uri: lb://eyh-mall-aliyun
+#          uri: http://localhost:8084
+          predicates:
+            - Path=/aliyun/**
+        - id: eyh-mall-commodity
+          uri: lb://eyh-mall-commodity
+#          uri: http://localhost:8085
+          predicates:
+            - Path=/commodity/**
+        - id: eyh-mall-merchantStores
+          uri: lb://eyh-mall-merchantStores
+#          uri: http://localhost:8086
+          predicates:
+            - Path=/merchantStores/**
+        - id: eyh-mall-marketing
+          uri: lb://eyh-mall-marketing
+#          uri: http://localhost:8087
+          predicates:
+            - Path=/marketing/**
+        - id: eyh-mall-pay
+          uri: lb://eyh-mall-pay
+#          uri: http://localhost:8088
+          predicates:
+            - Path=/pay/**
+        - id: eyh-mall-logistics
+          uri: lb://eyh-mall-logistics
+#          uri: http://localhost:8089
+          predicates:
+            - Path=/logistics/**
+      default-filters:
+        - AddRequestHeader=Truth,gyt
+      globalcors: # 全局跨域处理
+        add-to-simple-url-handler-mapping: true # 解决 option 请求被拦截问题
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: # 允许哪些网站的跨域请求
+              - "http://localhost:4000"
+            allowedMethods: # 允许跨域的 ajax 请求方式
+              - "GET"
+              - "POST"
+              - "DELETE"
+              - "PUT"
+              - "OPTIONS"
+            allowedHeaders: "*" # 允许在请求中携带的头信息
+            allowCredentials: true # 是否允许携带 cookie
+            maxAge: 360000 # 此次跨域检测的有效期
+#      discovery:
+#        locator:
+#          enabled: true
+#          lower-case-service-id: true
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 10000
+  eager-load:
+    enabled: true # 开启ribbon饥饿加载
+    clients: eyh-mall-gateway
+eyh:
+  mall:
+    gateway: eyh.mall.gateway.dev
+
+config:
+  jwt:
+    # 加密密钥
+    secret: 2sr7419db0112g4uhb9c92cb
+
+admin:
+  login: /jurisdiction/login
+
+logging:
+  pattern:
+    console: '%date{yyyy-MM-dd HH:mm:ss.SSS} | %highlight(%5level) [%green(%16.16thread)] %clr(%-50.50logger{49}){cyan} %4line -| %highlight(%msg%n)'

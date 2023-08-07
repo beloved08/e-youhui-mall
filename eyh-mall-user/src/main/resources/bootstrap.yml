@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eyh-mall-user
+  profiles:
+    active: @nacos.env.version@ # 环境
+  cloud:
+    nacos:
+      server-addr: @nacos.server.addr@ # nacos服务地址
+      config:
+        file-extension: yaml
+        namespace: a37deea0-7609-42da-9c4a-65802f794813 # eyh-mall-user命名空间
+        group: eyh-mall-user # eyh-mall-user命名空间开发环境组
+      discovery:
+        namespace: b971cd64-85de-4923-aa49-52c0d00c641e # eyh-mall-service命名空间
+        cluster-name: KM # 集群名称
