@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "申请成为促销员",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u-code-input": "/node-modules/uview-ui/components/u-code-input/u-code-input",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button"
+  }
+}

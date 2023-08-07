@@ -1,0 +1,1 @@
+<picker style="display:flex;justify-content:space-between;" range="{{array}}" range-key="name" value="{{value}}" mode="multiSelector" data-event-opts="{{[['change',[['bindPickerChange',['$event']]]],['columnchange',[['columnchange',['$event']]]]]}}" bindchange="__e" bindcolumnchange="__e" class="data-v-47b2d89e"><slot></slot></picker>

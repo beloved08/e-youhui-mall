@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-sticky": "/node-modules/thorui-uni/lib/thorui/tui-sticky/tui-sticky",
+    "tui-tabs": "/node-modules/thorui-uni/lib/thorui/tui-tabs/tui-tabs",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider",
+    "order-all": "/subPages/personal-pages/order/orderAll/orderAll",
+    "order-paid": "/subPages/personal-pages/order/orderPaid/orderPaid",
+    "order-shipped": "/subPages/personal-pages/order/orderShipped/orderShipped",
+    "order-received": "/subPages/personal-pages/order/orderReceived/orderReceived",
+    "order-complete": "/subPages/personal-pages/order/orderComplete/orderComplete",
+    "after-sales": "/subPages/personal-pages/order/afterSales/afterSales",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

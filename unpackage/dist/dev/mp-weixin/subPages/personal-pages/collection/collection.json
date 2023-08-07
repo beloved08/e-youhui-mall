@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "收藏中心",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-sticky": "/node-modules/thorui-uni/lib/thorui/tui-sticky/tui-sticky",
+    "u-subsection": "/node-modules/uview-ui/components/u-subsection/u-subsection",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

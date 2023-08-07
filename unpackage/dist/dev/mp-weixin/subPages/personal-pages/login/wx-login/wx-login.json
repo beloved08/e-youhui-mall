@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "微信登录",
+  "navigationBarBackgroundColor": "#577ee3",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-divider": "/node-modules/uview-ui/components/u-divider/u-divider",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-bottom-popup": "/node-modules/thorui-uni/lib/thorui/tui-bottom-popup/tui-bottom-popup",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input"
+  }
+}

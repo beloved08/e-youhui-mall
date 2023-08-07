@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#f6003c",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-swipe-action": "/node-modules/thorui-uni/lib/thorui/tui-swipe-action/tui-swipe-action",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

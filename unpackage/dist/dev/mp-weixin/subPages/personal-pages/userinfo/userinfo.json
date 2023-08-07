@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#0074e4",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-list-view": "/node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "tui-list-cell": "/node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u--text": "/node-modules/uview-ui/components/u--text/u--text"
+  }
+}

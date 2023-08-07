@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "消息",
+  "navigationBarBackgroundColor": "#1fab89",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-list-view": "/node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "tui-list-cell": "/node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

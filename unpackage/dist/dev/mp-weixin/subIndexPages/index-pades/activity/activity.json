@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "滚动通知活动页面",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员购买",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

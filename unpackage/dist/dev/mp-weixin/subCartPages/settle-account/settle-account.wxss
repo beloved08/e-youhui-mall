@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #f6f6f6;
+}
+.order-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.order-box .address-box {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.order-box .address-box .address-icon {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-box .address-box .address-desc {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+}
+.order-box .address-box .address-desc .detailedAddress {
+  font-size: 13px;
+  font-weight: bold;
+}
+.order-box .address-box .address-desc .consignee-phone {
+  font-size: 11px;
+  margin-top: 10rpx;
+  color: #939393;
+}
+.order-box .address-box .address-select {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-box .commodity-box {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.order-box .commodity-box .shop-box {
+  display: flex;
+  flex-direction: row;
+}
+.order-box .commodity-box .shop-box .logo {
+  width: 35rpx;
+  height: 35rpx;
+  background-color: red;
+  margin-right: 20rpx;
+}
+.order-box .commodity-box .shop-box .business-name {
+  font-size: 13px;
+  font-weight: bold;
+}
+.order-box .commodity-box .commodity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.order-box .commodity-box .commodity .commodity-image {
+  width: 20%;
+  height: 130rpx;
+}
+.order-box .commodity-box .commodity .commodity-desc {
+  width: 55%;
+  color: #717171;
+  font-size: 12px;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.order-box .commodity-box .commodity .commodity-price {
+  width: 15%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.order-box .commodity-box .delivery-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  align-items: center;
+}
+.order-box .commodity-box .delivery-service .delivery-service-left {
+  font-size: 10px;
+  color: #717171;
+}
+.order-box .commodity-box .delivery-service .delivery-service-right {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.order-box .commodity-box .member-preferential {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  align-items: center;
+}
+.order-box .commodity-box .member-preferential .member-preferential-left {
+  font-size: 10px;
+  color: #717171;
+}
+.order-box .commodity-box .member-preferential .member-preferential-right {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #939393;
+}
+.order-box .commodity-box .use-coupon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  align-items: center;
+}
+.order-box .commodity-box .use-coupon .common {
+  font-size: 10px;
+  color: #939393;
+}
+.order-box .commodity-box .use-coupon .business {
+  font-size: 10px;
+  color: #939393;
+}
+.order-box .commodity-box .order-remarks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  align-items: center;
+}
+.order-box .commodity-box .order-remarks .order-remarks-left {
+  font-size: 10px;
+  color: #717171;
+}
+.order-box .commodity-box .order-remarks .order-remarks-right {
+  font-size: 10px;
+  color: #939393;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.order-box .pay {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 150rpx;
+}
+.order-box .order-remarks-popup {
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+}
+.order-box .order-remarks-popup .order-remarks-popup-title {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.order-box .order-remarks-popup .order-remarks-popup-textarea {
+  margin-top: 30rpx;
+  background-color: #f6f6f6;
+}
+.order-box .order-remarks-popup .order-remarks-popup-button {
+  margin-top: 100rpx;
+}
+.order-box .price-detail {
+  position: fixed;
+  bottom: 0;
+  margin-top: 50rpx;
+  width: 100%;
+  height: 100rpx;
+  border-top: 2rpx solid #eee;
+  background-color: #fff;
+  line-height: var(--footer-height);
+}
+.order-box .price-detail .price-detail-desc {
+  display: flex;
+  flex-direction: row;
+  line-height: 100rpx;
+}
+.order-box .price-detail .price-detail-desc .price-detail-item {
+  width: 70%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.order-box .price-detail .price-detail-desc .price-detail-button {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30rpx;
+}
+.order-box .tui-modal-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-box .tui-modal-custom .pay {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80rpx;
+}
+.order-box .tui-modal-custom .pay-button {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+

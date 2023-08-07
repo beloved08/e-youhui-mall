@@ -1,0 +1,149 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/cart/cart",
+    "pages/personal/personal",
+    "pages/notice/notice"
+  ],
+  "subPackages": [
+    {
+      "root": "subIndexPages",
+      "pages": [
+        "index-pades/activity/activity",
+        "commodityDetail/commodityDetail",
+        "business-center/business-center",
+        "business-all-commodity/business-all-commodity",
+        "time-kill/time-kill",
+        "time-kill/countDown/countDown"
+      ]
+    },
+    {
+      "root": "subClassificationPages",
+      "pages": [
+        "classifition-commodity/classifition-commodity"
+      ]
+    },
+    {
+      "root": "subCartPages",
+      "pages": [
+        "settle-account/settle-account",
+        "pending-payment/pending-payment",
+        "checkout-success/checkout-success",
+        "order-detail/order-detail",
+        "received-detail/received-detail",
+        "completed-detail/completed-detail"
+      ]
+    },
+    {
+      "root": "subPages",
+      "pages": [
+        "personal-pages/balance/balance",
+        "personal-pages/integral/integral",
+        "personal-pages/coupon/coupon",
+        "personal-pages/collection/collection",
+        "personal-pages/vip/vip",
+        "personal-pages/order/order",
+        "personal-pages/national-promotion/national-promotion",
+        "personal-pages/merchant-settlement/merchant-settlement",
+        "personal-pages/address/address",
+        "personal-pages/customer-service/customer-service",
+        "personal-pages/system-settings/system-settings",
+        "personal-pages/icon/icon",
+        "personal-pages/userinfo/userinfo",
+        "personal-pages/merchant-settlement/agreement/agreement",
+        "personal-pages/order/orderAll/orderAll",
+        "personal-pages/order/orderPaid/orderPaid",
+        "personal-pages/order/orderShipped/orderShipped",
+        "personal-pages/order/orderReceived/orderReceived",
+        "personal-pages/order/orderComplete/orderComplete",
+        "personal-pages/order/afterSales/afterSales",
+        "personal-pages/balance/recharge/recharge",
+        "personal-pages/getCoupon/getCoupon",
+        "personal-pages/address/addAddress/addAddress",
+        "personal-pages/address/editAddress/editAddress",
+        "personal-pages/login/phone-login/phone-login",
+        "personal-pages/login/wx-login/wx-login",
+        "personal-pages/login/account-pwd-login/account-pwd-login",
+        "personal-pages/register/account-pwd-register/account-pwd-register",
+        "personal-pages/map/map",
+        "personal-pages/merchant-settlement/merchant-stores/merchant-stores",
+        "personal-pages/merchant-settlement/apply-form/apply-form",
+        "personal-pages/system-settings/terms-service/terms-service",
+        "personal-pages/system-settings/privacy-policy/privacy-policy",
+        "personal-pages/balance/balance-detail/balance-detail",
+        "personal-pages/integral/integral-detail/integral-detail",
+        "personal-pages/vip/vip-purchase/vip-purchase",
+        "personal-pages/national-promotion/apply-promotion/apply-promotion",
+        "personal-pages/user-promotion/user-promotion"
+      ],
+      "plugins": {
+        "chooseLocation": {
+          "version": "1.0.10",
+          "provider": "wx76a9a06e5b4e693e"
+        },
+        "citySelector": {
+          "version": "1.0.2",
+          "provider": "wx63ffb7b7894e99ae"
+        }
+      }
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "E优汇",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#767a7f",
+    "selectedColor": "#9fc6ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index-active.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "static/icon/classification.png",
+        "selectedIconPath": "static/icon/classification-active.png"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "消息",
+        "iconPath": "static/icon/notice.png",
+        "selectedIconPath": "static/icon/notice-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart-active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "static/icon/personal.png",
+        "selectedIconPath": "static/icon/personal-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userFuzzyLocation": {
+      "desc": "获取您的位置用于小程序位置展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdateBackground",
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

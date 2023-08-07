@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "所有余额变动",
+  "navigationBarBackgroundColor": "#08d9d6",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-list-view": "/node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "tui-list-cell": "/node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell"
+  }
+}

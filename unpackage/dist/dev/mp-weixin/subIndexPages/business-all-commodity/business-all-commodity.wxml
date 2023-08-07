@@ -1,0 +1,1 @@
+<view><waterfall-flow vue-id="6efe7312-1" commodityList="{{commodityListData}}" bind:__l="__l"></waterfall-flow></view>

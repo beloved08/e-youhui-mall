@@ -1,0 +1,101 @@
+
+.tui-steps-box.data-v-51db1e45 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.tui-steps-column.data-v-51db1e45 {
+	flex-direction: column;
+}
+.tui-step-ico.data-v-51db1e45 {
+	border-radius: 50%;
+	position: relative;
+	z-index: 3;
+	margin: 0 auto;
+	border-width: 1rpx;
+	border-style: solid;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+.tui-step-row_ico.data-v-51db1e45 {
+	align-items: center;
+}
+.tui-step-column_ico.data-v-51db1e45 {
+	align-items: flex-start;
+}
+.tui-step-line.data-v-51db1e45 {
+	position: absolute;
+	left: 50%;
+	top: 20rpx;
+	width: 100%;
+	height: 0rpx;
+	border-top-width: 1px;
+	z-index: 2;
+	-webkit-transform: translateY(-50%) translateZ(0);
+	        transform: translateY(-50%) translateZ(0);
+}
+.tui-step-row_item_main.data-v-51db1e45 {
+	text-align: center;
+}
+.tui-step-item.data-v-51db1e45 {
+	font-size: 24rpx;
+	position: relative;
+	box-sizing: border-box;
+}
+.tui-step-item-ico.data-v-51db1e45 {
+	height: 36rpx;
+	display: flex;
+	justify-content: center;
+}
+.tui-step-custom.data-v-51db1e45 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48rpx;
+	height: 40rpx;
+	position: relative;
+	z-index: 4;
+	margin: 0 auto;
+}
+.tui-step-img.data-v-51db1e45 {
+	width: 40rpx;
+	height: 40rpx;
+}
+.tui-step-item-main.data-v-51db1e45 {
+	margin-top: 16rpx;
+	clear: both;
+}
+.tui-step-item-title.data-v-51db1e45 {
+	word-break: break-all;
+}
+.tui-step-item-content.data-v-51db1e45 {
+	margin-top: 8rpx;
+	word-break: break-all;
+}
+.tui-step-vertical.data-v-51db1e45 {
+	width: 100%;
+	display: flex;
+	padding-bottom: 60rpx;
+}
+.tui-step-column_item_main.data-v-51db1e45 {
+	margin-top: 0;
+	padding-left: 20rpx;
+	max-width: 80%;
+}
+.tui-step-column_line.data-v-51db1e45 {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 18rpx;
+	margin: 0;
+	width: 0rpx;
+	border-right-width: 1px;
+	-webkit-transform: none !important;
+	        transform: none !important;
+}
+.tui-custom-left.data-v-51db1e45 {
+	left: 20rpx !important;
+}
+

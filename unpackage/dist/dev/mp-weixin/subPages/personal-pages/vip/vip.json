@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "会员中心",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#ef3b36",
+  "usingComponents": {
+    "tui-tag": "/node-modules/thorui-uni/lib/thorui/tui-tag/tui-tag",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

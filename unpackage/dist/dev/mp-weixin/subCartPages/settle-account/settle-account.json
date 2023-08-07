@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ff0000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button"
+  }
+}

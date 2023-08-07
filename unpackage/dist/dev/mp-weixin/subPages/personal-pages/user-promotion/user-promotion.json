@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "全民促销",
+  "navigationBarBackgroundColor": "#3490de",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-list-view": "/node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "tui-list-cell": "/node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

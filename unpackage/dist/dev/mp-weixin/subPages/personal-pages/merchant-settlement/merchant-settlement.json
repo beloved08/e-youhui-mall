@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商家入驻",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "tui-tips": "/node-modules/thorui-uni/lib/thorui/tui-tips/tui-tips"
+  }
+}

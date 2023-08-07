@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "付款成功",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

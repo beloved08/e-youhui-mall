@@ -1,0 +1,123 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*顶部消息提醒 start*/
+.tui-toptips.data-v-4488109f {
+	width: 100%;
+	padding: 18rpx 30rpx;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	word-break: break-all;
+	opacity: 0;
+	-webkit-transform: translateZ(0) translateY(-100%);
+	        transform: translateZ(0) translateY(-100%);
+	transition: all 0.3s ease-in-out;
+}
+.tui-top-show.data-v-4488109f {
+	-webkit-transform: translateZ(0) translateY(0);
+	        transform: translateZ(0) translateY(0);
+	opacity: 1;
+}
+/*顶部消息提醒 end*/
+/*toast消息提醒 start*/
+/*注意问题：
+ 1、fixed 元素宽度无法自适应，所以增加了子元素
+ 2、fixed 和 display冲突导致动画效果消失，暂时使用visibility替代
+*/
+.tui-toast.data-v-4488109f {
+	width: 80%;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 28rpx;
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	left: 50%;
+	transition: all 0.3s ease-in-out;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tui-toast-show.data-v-4488109f {
+	visibility: visible;
+	opacity: 1;
+}
+.tui-tips-content.data-v-4488109f {
+	word-wrap: break-word;
+	word-break: break-all;
+	border-radius: 8rpx;
+	padding: 18rpx 30rpx;
+}
+.tui-bottomtips.data-v-4488109f {
+	bottom: 120rpx;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.tui-centertips.data-v-4488109f {
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+

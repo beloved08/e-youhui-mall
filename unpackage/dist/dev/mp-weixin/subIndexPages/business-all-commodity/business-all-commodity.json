@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商家商品",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fc5185",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

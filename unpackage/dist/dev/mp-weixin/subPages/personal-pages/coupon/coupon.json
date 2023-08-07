@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-tabs": "/node-modules/thorui-uni/lib/thorui/tui-tabs/tui-tabs",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

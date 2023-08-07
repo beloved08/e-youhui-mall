@@ -1,0 +1,1 @@
+<view><view class="promotion">全民促销</view><view data-event-opts="{{[['tap',[['toApplyPromotion',['$event']]]]]}}" class="apply-button" bindtap="__e"><view class="apply">申请成为促销人员</view></view></view>

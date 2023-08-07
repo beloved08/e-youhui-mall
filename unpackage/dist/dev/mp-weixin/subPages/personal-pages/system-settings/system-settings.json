@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "系统设置",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-list-view": "/node-modules/thorui-uni/lib/thorui/tui-list-view/tui-list-view",
+    "tui-list-cell": "/node-modules/thorui-uni/lib/thorui/tui-list-cell/tui-list-cell",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

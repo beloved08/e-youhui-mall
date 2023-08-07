@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商家中心",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#00adb5",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "E优汇",
+  "navigationBarBackgroundColor": "#f6003c",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-sticky": "/node-modules/thorui-uni/lib/thorui/tui-sticky/tui-sticky",
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "tui-dropdown-list": "/node-modules/thorui-uni/lib/thorui/tui-dropdown-list/tui-dropdown-list",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-scroll-top": "/node-modules/thorui-uni/lib/thorui/tui-scroll-top/tui-scroll-top",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "新增收货地址",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "picker-address": "/subPages/components/pickerAddress/pickerAddress"
+  }
+}

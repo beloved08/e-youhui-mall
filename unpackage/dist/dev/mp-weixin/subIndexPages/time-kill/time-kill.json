@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "限时秒杀",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#ff0000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "count-down": "/subIndexPages/time-kill/countDown/countDown"
+  }
+}

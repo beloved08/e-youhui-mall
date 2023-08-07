@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商家店铺信息",
+  "navigationBarBackgroundColor": "#577ee3",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "map": "/subPages/personal-pages/map/map"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "已完成订单详情",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#11999e",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-steps": "/node-modules/thorui-uni/lib/thorui/tui-steps/tui-steps",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类商品",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#0074e4",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

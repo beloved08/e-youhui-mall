@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "领券中心",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-tabs": "/node-modules/thorui-uni/lib/thorui/tui-tabs/tui-tabs",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

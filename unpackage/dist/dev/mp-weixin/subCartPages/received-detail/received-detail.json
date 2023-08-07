@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "待收货订单详情",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#11999e",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-steps": "/node-modules/thorui-uni/lib/thorui/tui-steps/tui-steps",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

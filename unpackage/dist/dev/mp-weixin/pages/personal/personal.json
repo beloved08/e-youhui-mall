@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "tui-tag": "/node-modules/thorui-uni/lib/thorui/tui-tag/tui-tag",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-grid": "/node-modules/thorui-uni/lib/thorui/tui-grid/tui-grid",
+    "tui-grid-item": "/node-modules/thorui-uni/lib/thorui/tui-grid-item/tui-grid-item",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "tui-calendar": "/node-modules/thorui-uni/lib/thorui/tui-calendar/tui-calendar",
+    "tui-scroll-top": "/node-modules/thorui-uni/lib/thorui/tui-scroll-top/tui-scroll-top",
+    "tui-fab": "/node-modules/thorui-uni/lib/thorui/tui-fab/tui-fab",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

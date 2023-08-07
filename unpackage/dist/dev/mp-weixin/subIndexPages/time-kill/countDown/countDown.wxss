@@ -1,0 +1,30 @@
+
+.countdown.data-v-5b447767 {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+.countdown-title.data-v-5b447767 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+.countdown-timer.data-v-5b447767 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.countdown-item.data-v-5b447767 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.countdown-value.data-v-5b447767 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+.countdown-label.data-v-5b447767 {
+	font-size: 1rem;
+}
+

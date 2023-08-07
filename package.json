@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@escook/request-miniprogram": "^0.2.1",
+    "goeasy": "^2.6.2",
+    "thorui-uni": "^2.0.0",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.7",
+    "uview-ui": "^2.0.31",
+    "vuex": "^4.1.0"
+  }
+}

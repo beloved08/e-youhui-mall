@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "图标设置",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "tui-sticky": "/node-modules/thorui-uni/lib/thorui/tui-sticky/tui-sticky",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "tui-grid": "/node-modules/thorui-uni/lib/thorui/tui-grid/tui-grid",
+    "tui-grid-item": "/node-modules/thorui-uni/lib/thorui/tui-grid-item/tui-grid-item",
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "t-color-picker": "/subPages/components/t-color-picker/t-color-picker",
+    "waterfall-flow": "/components/waterfallFlow/waterfallFlow"
+  }
+}

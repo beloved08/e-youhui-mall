@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "地址管理",
+  "navigationBarBackgroundColor": "#ff0000",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

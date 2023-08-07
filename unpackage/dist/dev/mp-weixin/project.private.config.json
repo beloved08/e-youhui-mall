@@ -1,0 +1,398 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/personal-pages/order/order",
+          "pathName": "pages/personal-pages/order/order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal/personal",
+          "pathName": "pages/personal/personal",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/collection/collection",
+          "pathName": "pages/personal-pages/collection/collection",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/vip/vip",
+          "pathName": "pages/personal-pages/vip/vip",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/balance/balance",
+          "pathName": "pages/personal-pages/balance/balance",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/balance/recharge/recharge",
+          "pathName": "pages/personal-pages/balance/recharge/recharge",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/integral/integral",
+          "pathName": "pages/personal-pages/integral/integral",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/coupon/coupon",
+          "pathName": "pages/personal-pages/coupon/coupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/getCoupon/getCoupon",
+          "pathName": "pages/personal-pages/getCoupon/getCoupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/address/address",
+          "pathName": "pages/personal-pages/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/address/addAddress/addAddress",
+          "pathName": "pages/personal-pages/address/addAddress/addAddress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personal-pages/address/editAddress/editAddress",
+          "pathName": "pages/personal-pages/address/editAddress/editAddress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/wx-login/wx-login",
+          "pathName": "pages/login/wx-login/wx-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/login/wx-login/wx-login",
+          "pathName": "subPages/personal-pages/login/wx-login/wx-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/login/account-pwd-login/account-pwd-login",
+          "pathName": "subPages/personal-pages/login/account-pwd-login/account-pwd-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/register/account-pwd-register/account-pwd-register",
+          "pathName": "subPages/personal-pages/register/account-pwd-register/account-pwd-register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/login/wx-login/wx-login",
+          "pathName": "subPages/personal-pages/login/wx-login/wx-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/register/account-pwd-register/account-pwd-register",
+          "pathName": "subPages/personal-pages/register/account-pwd-register/account-pwd-register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/login/phone-login/phone-login",
+          "pathName": "subPages/personal-pages/login/phone-login/phone-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/merchant-settlement/merchant-settlement",
+          "pathName": "subPages/personal-pages/merchant-settlement/merchant-settlement",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/map/map",
+          "pathName": "subPages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/merchant-settlement/merchant-stores/merchant-stores",
+          "pathName": "subPages/personal-pages/merchant-settlement/merchant-stores/merchant-stores",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/map/map",
+          "pathName": "subPages/personal-pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/userinfo/userinfo",
+          "pathName": "subPages/personal-pages/userinfo/userinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classification/classification",
+          "pathName": "pages/classification/classification",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classification/classification-pages/classification-list/classification-list",
+          "pathName": "pages/classification/classification-pages/classification-list/classification-list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subClassificationPages/classifition-commodity/classifition-commodity",
+          "pathName": "subClassificationPages/classifition-commodity/classifition-commodity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/classification/classification",
+          "pathName": "pages/classification/classification",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subIndexPages/commodityDetail/commodityDetail",
+          "pathName": "subIndexPages/commodityDetail/commodityDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/cart/cart",
+          "pathName": "pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/userinfo/userinfo",
+          "pathName": "subPages/personal-pages/userinfo/userinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/login/wx-login/wx-login",
+          "pathName": "subPages/personal-pages/login/wx-login/wx-login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/notice/notice",
+          "pathName": "pages/notice/notice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/address/addAddress/addAddress",
+          "pathName": "subPages/personal-pages/address/addAddress/addAddress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/address/address",
+          "pathName": "subPages/personal-pages/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subIndexPages/commodityDetail/commodityDetail",
+          "pathName": "subIndexPages/commodityDetail/commodityDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/collection/collection",
+          "pathName": "subPages/personal-pages/collection/collection",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/getCoupon/getCoupon",
+          "pathName": "subPages/personal-pages/getCoupon/getCoupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/coupon/coupon",
+          "pathName": "subPages/personal-pages/coupon/coupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/system-settings/system-settings",
+          "pathName": "subPages/personal-pages/system-settings/system-settings",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/balance/balance-detail/balance-detail",
+          "pathName": "subPages/personal-pages/balance/balance-detail/balance-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/vip/vip",
+          "pathName": "subPages/personal-pages/vip/vip",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/vip/vip-purchase/vip-purchase",
+          "pathName": "subPages/personal-pages/vip/vip-purchase/vip-purchase",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/vip/vip",
+          "pathName": "subPages/personal-pages/vip/vip",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subIndexPages/business-center/business-center",
+          "pathName": "subIndexPages/business-center/business-center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/collection/collection",
+          "pathName": "subPages/personal-pages/collection/collection",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/cart/cart",
+          "pathName": "pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subCartPages/settle-account/settle-account",
+          "pathName": "subCartPages/settle-account/settle-account",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/coupon/coupon",
+          "pathName": "subPages/personal-pages/coupon/coupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subCartPages/checkout-success/checkout-success",
+          "pathName": "subCartPages/checkout-success/checkout-success",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subCartPages/order-detail/order-detail",
+          "pathName": "subCartPages/order-detail/order-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subPages/personal-pages/order/order",
+          "pathName": "subPages/personal-pages/order/order",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "subCartPages/received-detail/received-detail",
+          "pathName": "subCartPages/received-detail/received-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subCartPages/completed-detail/completed-detail",
+          "query": "orderNumber=2622786460915796420",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subIndexPages/commodityDetail/commodityDetail",
+          "query": "commodityId=1493ca7b-5b84-476d-9d9d-2bd8f110b517",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subPages/personal-pages/national-promotion/national-promotion",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subPages/personal-pages/national-promotion/apply-promotion/apply-promotion",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal/personal",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subIndexPages/time-kill/time-kill",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subPages/personal-pages/user-promotion/user-promotion",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "uniapp-eyh-mall"
+}

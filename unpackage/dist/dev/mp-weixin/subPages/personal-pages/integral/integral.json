@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "积分",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#17b978",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button",
+    "tui-divider": "/node-modules/thorui-uni/lib/thorui/tui-divider/tui-divider"
+  }
+}

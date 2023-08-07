@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "待付款",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#eaeaea",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "tui-icon": "/node-modules/thorui-uni/lib/thorui/tui-icon/tui-icon",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "tui-modal": "/node-modules/thorui-uni/lib/thorui/tui-modal/tui-modal",
+    "u-checkbox-group": "/node-modules/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "tui-button": "/node-modules/thorui-uni/lib/thorui/tui-button/tui-button"
+  }
+}
